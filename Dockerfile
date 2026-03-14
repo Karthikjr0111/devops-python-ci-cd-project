@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN pip install flask pytest
+RUN RUN pip install -r requirements.txt
 
 EXPOSE 5000
 
